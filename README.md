@@ -1,1 +1,0 @@
-# satellite-image-downsampling-and-compression
