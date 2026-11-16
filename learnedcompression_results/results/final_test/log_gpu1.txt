@@ -1,0 +1,10 @@
+/usr/local/lib/python3.13/dist-packages/compressai/entropy_models/entropy_models.py:644: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is /root/.cache/torch/kernels. This warning will appear only once per process. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/jit_utils.cpp:1505.)
+  return half * torch.erfc(const * inputs)
+split_l0.01: done in 1320 s | bpp 1.236 | PSNR 35.53 dB | mismatches 0
+split_l0.02_s1: done in 887 s | bpp 2.071 | PSNR 37.16 dB | mismatches 0
+split_l0.08: done in 898 s | bpp 5.333 | PSNR 38.73 dB | mismatches 0
+split_l1.28: done in 911 s | bpp 17.375 | PSNR 41.38 dB | mismatches 0
+wide_merged_l1.28: done in 258 s | bpp 2.925 | PSNR 34.81 dB | mismatches 0
+merged_l0.02: done in 214 s | bpp 1.080 | PSNR 34.60 dB | mismatches 0
+merged_l0.08: done in 218 s | bpp 1.603 | PSNR 34.78 dB | mismatches 0
+merged_l1.28: done in 213 s | bpp 1.895 | PSNR 35.67 dB | mismatches 0
