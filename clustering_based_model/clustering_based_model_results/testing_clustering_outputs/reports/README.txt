@@ -1,0 +1,1 @@
+DIPCOMA clustering independent-test evaluation. Models are fitted on trainval/train only and evaluated on dipcoma-test. See run_summary.json for exact counts and metric conventions.
