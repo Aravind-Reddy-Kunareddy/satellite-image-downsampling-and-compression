@@ -1,0 +1,8 @@
+split_l0.005: done in 1336 s | bpp 0.785 | PSNR 34.91 dB | mismatches 0
+split_l0.02: done in 910 s | bpp 2.114 | PSNR 37.49 dB | mismatches 0
+split_l0.04: done in 912 s | bpp 3.226 | PSNR 38.82 dB | mismatches 0
+split_l0.32: done in 922 s | bpp 10.715 | PSNR 41.29 dB | mismatches 0
+wide_merged_l0.08: done in 264 s | bpp 2.228 | PSNR 35.03 dB | mismatches 0
+merged_l0.005: done in 216 s | bpp 0.536 | PSNR 33.87 dB | mismatches 0
+merged_l0.02_s1: done in 214 s | bpp 1.095 | PSNR 35.28 dB | mismatches 0
+merged_l0.32: done in 212 s | bpp 1.798 | PSNR 34.67 dB | mismatches 0

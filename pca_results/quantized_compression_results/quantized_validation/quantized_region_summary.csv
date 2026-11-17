@@ -1,0 +1,4 @@
+region,Patch_Count,Mean_PSNR,Mean_SSIM,Min_PSNR,Min_SSIM,Mean_Compression_Ratio
+gobi,66,50.2171,0.998,43.0796,0.9854,7.2886
+murray_darling,33,48.5126,0.9957,43.8555,0.9893,7.3863
+tokyo_bay,66,45.5,0.9857,42.8866,0.9701,9.9238
