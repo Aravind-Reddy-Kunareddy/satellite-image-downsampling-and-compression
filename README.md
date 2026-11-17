@@ -19,71 +19,74 @@ The work consolidates the methods, ablation experiments, and
 quantitative results into a single comparative research study. The
 approaches are evaluated using reconstruction quality, rate/compression,
 and computational-cost measures.
+Important: These are seven distinct methods, not one fused model
+or a single sequential pipeline. Their rate measurements are not
+always directly interchangeable: selected-band payload ratios,
+JPEG/JPEG2000 bitrates, PCA latent rates, and entropy-coded learned
+bitstreams represent different coding setups.
 
-Important: These are seven distinct methods, not one fused model or
-a single sequential pipeline. Their rate measurements are not always
-directly interchangeable: selected-band payload ratios, JPEG/JPEG2000
-bitrates, PCA latent rates, and entropy-coded learned bitstreams
-represent different coding setups.
 Models evaluated
-  #                      Model                   Core idea
-  1                       Search Model          Formulates band
-(ACOMA)               selection as a
-combinatorial
-optimization problem
-and compares exhaustive
-search, genetic
-algorithm (GA), binary
-particle swarm
-optimization (BPSO),
-hybrid GA--BPSO, and
-random search.
+                        \# Model                 Core idea
 
-  2                       Hybrid Model        Combines K-means
-grouping, statistical
-band ranking, and
-GA/BPSO optimization,
-with reconstruction of
-omitted bands.
+                         1 **Search Model        Formulates band
+                           (ACOMA)**             selection as a
+                                                 combinatorial
+                                                 optimization problem
+                                                 and compares exhaustive
+                                                 search, genetic
+                                                 algorithm (GA), binary
+                                                 particle swarm
+                                                 optimization (BPSO),
+                                                 hybrid GA--BPSO, and
+                                                 random search.
 
-  3                       PCA / Quantized PCA Applies principal
-component analysis to
-decorrelate and reduce
-spectral
-dimensionality;
-quantized PCA stores
-component scores at
-reduced precision.
+                         2 **Hybrid Model**      Combines K-means
+                                                 grouping, statistical
+                                                 band ranking, and
+                                                 GA/BPSO optimization,
+                                                 with reconstruction of
+                                                 omitted bands.
 
-  4                       Ranking-Based Model Selects original bands
-using variance-based
-and
-Shannon-entropy-based
-ranking criteria.
+                         3 **PCA / Quantized     Applies principal
+                           PCA**                 component analysis to
+                                                 decorrelate and reduce
+                                                 spectral
+                                                 dimensionality;
+                                                 quantized PCA stores
+                                                 component scores at
+                                                 reduced precision.
 
-  5                       Clustering-Based      Groups spectral-band
-Model                 profiles using
-K-means++ or Ward
-hierarchical clustering
-and selects
-representative original
-bands.
+                         4 **Ranking-Based       Selects original bands
+                           Model**               using variance-based
+                                                 and
+                                                 Shannon-entropy-based
+                                                 ranking criteria.
 
-  6                       Deep Learning Model Uses a compact linear
-autoencoder to estimate
-band importance,
-followed by
-selected-band coding
-and regression-based
-reconstruction.
-7                       Learned Compression   Uses a learned
-Model                 variational autoencoder
-with a scale
-hyperprior; compares
-joint multispectral
-(merged) and shared
-per-channel (split)
-compression.
+                         5 **Clustering-Based    Groups spectral-band
+                           Model**               profiles using
+                                                 K-means++ or Ward
+                                                 hierarchical clustering
+                                                 and selects
+                                                 representative original
+                                                 bands.
+
+                         6 **Deep Learning       Uses a compact linear
+                           Model**               autoencoder to estimate
+                                                 band importance,
+                                                 followed by
+                                                 selected-band coding
+                                                 and regression-based
+                                                 reconstruction.
+
+                         7 **Learned Compression Uses a learned
+                           Model**               variational autoencoder
+                                                 with a scale
+                                                 hyperprior; compares
+                                                 joint multispectral
+                                                 (merged) and shared
+                                                 per-channel (split)
+                                                 compression.
+
 Dataset and experimental setting
 The experiments use the DIPCOMA Sentinel-2 multispectral dataset. The
 common image representation contains:
@@ -98,6 +101,13 @@ validation patches, and 396 independent test patches. Not every model
 uses precisely the same sampling protocol or subset of the data; the
 paper documents those differences rather than assuming a perfectly
 identical setup.
+Dataset downloads
+- Training and validation dataset: DIPCOMA Train/Validation ---
+  Kaggle
+- Test dataset: DIPCOMA Test ---
+  Kaggle
+Please follow the dataset provider's terms and instructions when
+downloading or redistributing the data.
 Evaluation criteria
 The project reports a combination of image-quality, spectral-fidelity,
 compression, and computational metrics:
@@ -163,7 +173,6 @@ Key experimental observations
 These are experiment-specific findings, not a claim that one model is
 universally best. Consult the paper's tables for the exact
 configurations and numerical results.
-
 Repository structure
 .
 ├── README.md
@@ -176,14 +185,8 @@ Repository structure
 │   ├── deep_learning_model/
 │   └── learned_compression_model/
 └── requirements.txt
-
-Datasets
-Train and validation dataset : https://www.kaggle.com/datasets/krrishshandilya/dipcoma-trainval
-Test dataset : https://www.kaggle.com/datasets/krrishshandilya/dipcoma-test
-
-This is an organizational suggestion, not a claim that every directory
-or implementation file is already included. Add only the scripts,
-datasets, and outputs that are actually part of your repository. Do not
+This is the intended high-level organization. Add only the scripts,
+datasets, and outputs that are actually part of the repository. Do not
 commit restricted or very large raw datasets; document the source and
 acquisition instructions instead.
 Reproducibility notes
@@ -238,3 +241,14 @@ References
    with federated onboard learning of image compression," in
    Proceedings of the IEEE/CVF Conference on Computer Vision and
    Pattern Recognition Workshops, pp. 6809--6818, 2024.
+Citation
+If you use this consolidated experimental study, cite the paper included
+in this repository and cite the original research works listed in its
+References section where relevant. Add the final author names,
+institutional affiliations, publication venue, and DOI if/when the work
+is formally published.
+License
+Choose and add a license before distributing this repository. If the
+repository contains third-party datasets, pretrained weights, or copied
+research materials, follow their original licenses and citation
+requirements.
