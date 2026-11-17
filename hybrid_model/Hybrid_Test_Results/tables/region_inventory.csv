@@ -1,0 +1,25 @@
+split,region,latitude,longitude,metadata_month_1,metadata_month_2,n_patches,matched,directory
+train,Central Valley,36.5,-120.0,2025-07,2025-04,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/central_valley
+train,Iowa,42.0,-93.5,2025-07,2025-10,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/iowa
+train,Punjab,30.9,75.5,2025-02,2025-11,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/punjab
+train,Amazon Manaus,-3.1,-60.0,2025-08,2025-06,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/amazon_manaus
+train,Central Borneo,1.0,114.0,2025-07,2025-09,33,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/central_borneo
+train,Black Forest,48.0,8.2,2025-07,2025-10,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/black_forest
+train,Sahara Algeria,30.0,8.0,2025-01,2025-07,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/sahara_algeria
+train,Atacama,-23.5,-68.5,2025-01,2025-07,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/atacama
+train,Serengeti,-2.5,34.8,2025-07,2025-02,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/serengeti
+train,Swiss Alps,46.5,8.0,2025-07,2025-09,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/swiss_alps
+train,Iceland Vatnajokull,64.4,-17.5,2025-07,2025-09,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/iceland_vatnajokull
+train,Delhi,28.6,77.2,2025-03,2025-11,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/delhi
+train,Lake Victoria,-1.0,33.0,2025-06,2025-01,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/lake_victoria
+train,Sundarbans,22.0,89.0,2025-02,2025-11,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/sundarbans
+train,Maldives,4.0,73.4,2025-02,2025-04,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/train/maldives
+val,Murray-Darling,-34.5,146.0,2025-01,2025-07,33,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/val/murray_darling
+val,Tokyo Bay,35.7,139.8,2025-11,2025-02,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/val/tokyo_bay
+val,Gobi,43.0,104.0,2025-07,2025-10,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-trainval/dataset/val/gobi
+independent_test,Po Valley,45.0,10.5,2025-07,2025-04,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-test/test/po_valley
+independent_test,Northern Sweden,64.5,19.0,2025-07,2025-09,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-test/test/northern_sweden
+independent_test,Rub al Khali,20.5,51.5,2025-01,2025-07,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-test/test/rub_al_khali
+independent_test,Everest region,28.0,86.9,2025-10,2025-04,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-test/test/everest_region
+independent_test,Lagos,6.5,3.4,2025-01,2025-11,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-test/test/lagos
+independent_test,Great Barrier Reef,-18.5,147.0,2025-07,2025-10,66,True,/kaggle/input/datasets/krrishshandilya/dipcoma-test/test/great_barrier_reef
