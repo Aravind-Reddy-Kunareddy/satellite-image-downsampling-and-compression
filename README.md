@@ -60,8 +60,8 @@ Several reports use a common split of **957 training patches, 165 validation pat
 
 ### Dataset downloads
 
-- **Training and validation dataset:** DIPCOMA Train/Validation — Kaggle
-- **Test dataset:** DIPCOMA Test — Kaggle
+- **Training and validation dataset:** DIPCOMA Train/Validation — Kaggle : https://www.kaggle.com/datasets/krrishshandilya/dipcoma-trainval
+- **Test dataset:** DIPCOMA Test — Kaggle : https://www.kaggle.com/datasets/krrishshandilya/dipcoma-test
 
 Please follow the dataset provider's terms and instructions when downloading or redistributing the data.
 
