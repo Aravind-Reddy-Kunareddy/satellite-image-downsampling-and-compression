@@ -1,0 +1,28 @@
+# Core numerical and data-processing dependencies
+numpy>=1.24,<2.0
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+h5py>=3.9
+PyYAML>=6.0
+tqdm>=4.66
+joblib>=1.3
+
+# Deep learning and learned image compression
+# Install a PyTorch build compatible with your CUDA version if using an NVIDIA GPU.
+torch>=2.1,<2.6
+compressai==1.2.6
+
+# Image processing and visualization
+Pillow>=10.0
+opencv-python>=4.8
+matplotlib>=3.7
+seaborn>=0.13
+
+# Jupyter / experiment support
+jupyter>=1.0
+ipykernel>=6.25
+tensorboard>=2.14
+
+# Optional geospatial utilities (needed only if processing GeoTIFF/geospatial rasters)
+rasterio>=1.3
