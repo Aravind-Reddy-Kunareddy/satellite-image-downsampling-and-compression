@@ -1,0 +1,15 @@
+,K=5,K=10,K=15,K=20,K=25
+PSNR_omitted,K-means,tie (diff <= K-means std),tie (diff <= K-means std),Hierarchical,Hierarchical
+SSIM_omitted,K-means,K-means,tie (diff <= K-means std),Hierarchical,Hierarchical
+SAM_deg,Hierarchical,tie (diff <= K-means std),tie (diff <= K-means std),tie (diff <= K-means std),Hierarchical
+MAE_omitted,K-means,tie (diff <= K-means std),tie (diff <= K-means std),Hierarchical,Hierarchical
+MRE_omitted,K-means,tie (diff <= K-means std),Hierarchical,Hierarchical,Hierarchical
+redundancy,tie (diff <= K-means std),Hierarchical,tie (diff <= K-means std),tie (diff <= K-means std),tie (diff <= K-means std)
+entropy_mean,Hierarchical,tie (diff <= K-means std),tie (diff <= K-means std),Hierarchical,tie (diff <= K-means std)
+MSD,Hierarchical,Hierarchical,tie (diff <= K-means std),tie (diff <= K-means std),tie (diff <= K-means std)
+OA,N/A,N/A,N/A,N/A,N/A
+AA,N/A,N/A,N/A,N/A,N/A
+Kappa,N/A,N/A,N/A,N/A,N/A
+selection_time_s,Hierarchical,Hierarchical,Hierarchical,Hierarchical,Hierarchical
+peak_mem_MiB,Hierarchical,Hierarchical,Hierarchical,Hierarchical,Hierarchical
+model_state_bytes,Hierarchical,Hierarchical,Hierarchical,Hierarchical,Hierarchical

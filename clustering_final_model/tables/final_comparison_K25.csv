@@ -1,0 +1,26 @@
+Metric,"K-means (mean ± std, n=5)",Hierarchical (ward)
+Number of selected bands [selected],25,25
+Compression ratio (CR = orig/comp) [selected],20.480,20.480
+Effective CR incl. index overhead [selected],20.478,20.478
+Bits per original sample (bpp) [selected],0.7812,0.7812
+Bits per spatial pixel [selected],400.0,400.0
+"PSNR dB, full cube [recon]",29.948 ± 0.037,30.010
+"PSNR dB, omitted bands only [recon]",29.730 ± 0.037,29.793
+"SSIM, full cube [recon]",0.9819 ± 0.0001,0.9821
+"SSIM, omitted bands only [recon]",0.9810 ± 0.0001,0.9812
+SAM (degrees) [recon],3.4093 ± 0.0077,3.3906
+"MAE (raw units), omitted bands [recon]",105 ± 0.4646,104.3
+"MAE (raw units), full cube [recon]",99.86 ± 0.4419,99.21
+"Mean relative error, omitted bands [recon]",0.0369 ± 0.0001898,0.0366
+Spectral redundancy (mean |r|) [selected],0.9409 ± 0.0024,0.9415
+Mean information entropy (bits) [selected],6.5605 ± 0.0168,6.5561
+"Mean spectral divergence (sym. KL, nats; our definition) [selected]",0.0669 ± 0.0017,0.0686
+Overall accuracy (OA) [labels],N/A,N/A
+Average accuracy (AA) [labels],N/A,N/A
+Cohen's kappa [labels],N/A,N/A
+Selection time (s) [selected],2.4032 ± 0.0679,0.4911
+Reconstruction time (s) [recon],0.0076 ± 0.0002,0.0075
+"Peak memory during selection (MiB, tracemalloc) [selected]",52.17,8.28
+Stored model state on disk (bytes) [selected],1334208,21408
+Minimal state: labels+indices (bytes) [selected],2762,4810
+Selected-data size (bytes) [selected],332800,332800
